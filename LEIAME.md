@@ -1,2 +1,3 @@
 ## Tecnologias utilizadas:
-- HTML, CSS e Javascript
+- HTML e CSS;
+- Responsividade do site através do CSS;
