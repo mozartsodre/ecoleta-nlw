@@ -1,3 +1,3 @@
-## Tecnologias utilizadas:
+## Tópicos abordados:
 - HTML e CSS;
-- Responsividade do site através do CSS;
+- Responsividade através do CSS;
