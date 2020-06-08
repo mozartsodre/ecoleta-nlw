@@ -1,3 +1,4 @@
+//Dados da entidade
 function populateUFs () {
 
     const ufSelect = document.querySelector("select[name=uf]")
@@ -45,3 +46,31 @@ function getCities(event) {
 document
     .querySelector("select[name=uf]")
     .addEventListener("change", getCities)
+
+//Itens de coleta
+const itemsToCollect = document.querySelectorAll(".items-grid li")
+
+for (const item of itemsToCollect) { 
+    item.addEventListener("click", handleSelectedItem)
+}
+
+let selectedItems = []
+
+
+function handleSelectedItem (event) {
+    const itemLi = event.target
+    
+    //adicionar ou remover uma classe com Javascript
+    itemLi.classList.toggle("selected")
+
+    const itemId = itemLi.dataset.id
+
+    //Verificar se tem itens selecionados e caso tiver pegar os que estão selecionados
+
+    //se já estiver selecionado tirar da seleção
+
+    
+}
+
+
+
